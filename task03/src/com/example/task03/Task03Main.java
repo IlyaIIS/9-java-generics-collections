@@ -12,6 +12,7 @@ public class Task03Main {
         for (Set<String> anagram : anagrams) {
             System.out.println(anagram);
         }
+
     }
 
     public static List<Set<String>> findAnagrams(InputStream inputStream, Charset charset) {
